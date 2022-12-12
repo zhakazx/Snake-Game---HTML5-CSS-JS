@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #1e272e;
+    background-color: #1e293b;
     font-family: 'Poppins';
 }
 #app {
@@ -22,7 +22,7 @@ header {
     text-align: center;
 }
 header h1 {
-    color: #fff;
+    color: #fbbf24;
     text-shadow: 3px 3px 0 #323232;
     font-size: 4rem;
 }
@@ -68,7 +68,7 @@ button {
     transition: all .2s;;
 }
 .play .btn {
-    background-color: #0069d9;
+    background-color: #fbbf24;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -76,10 +76,10 @@ button {
     margin-left: 1rem;
 }
 .play .btn:hover {
-    background-color: #5d96d4;
+    background-color: #fcd34d;
 }
 .play .btn:active {
-    background-color: #0069d9;
+    background-color: #fbbf24;
 }
 .play .btn:disabled {
     background-color: grey;
@@ -106,6 +106,7 @@ button {
 .scoreboard .logo {
     display: flex;
     align-items: center;
+    color:#fbbf24
 }
 .scoreboard .logo img {
     width: 50px;
@@ -127,7 +128,7 @@ button {
     font-size: 2rem;
 }
 .btn-rewind {
-    background-color: #ff3f34;
+    background-color: #0d9488;
 }
 .btn-cancel {
     color: #333;
@@ -139,7 +140,7 @@ button {
     background-color: #ccc;
 }
 .btn-rewind:hover {
-    background-color: #ff5e57;
+    background-color: #2dd4bf;
 }
 #rewindRange {
     width: 100%;
