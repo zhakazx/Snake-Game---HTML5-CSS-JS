@@ -192,7 +192,7 @@ class Snake {
      * Update Score Value
      */
     updateScore() {
-        this.scoreEl.innerText = this.snakes.length;
+        this.scoreEl.innerText = this.snakes.length == 6 ? '0' : this.snakes.length - 6;
     }
 
     /**
